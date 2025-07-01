@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/ivDetailEventImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Event Image" />
+
+    <TextView
+        android:id="@+id/tvDetailEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvDetailEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Date"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvDetailEventType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Type"
+        android:textSize="14sp"
+        android:padding="6dp"
+        android:backgroundTint="#AAAAAA"
+        android:background="#9B0D3D"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+    <TextView
+        android:id="@+id/tvDetailEventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Location"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/tvDetailEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Description"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnJoinEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Event"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white" />
+</LinearLayout>
